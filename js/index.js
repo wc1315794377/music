@@ -14,7 +14,7 @@ $(function () {
         var id = $liActive.data('id');
         $.ajax({
             type: 'GET',
-            url: 'http://www.arthurdon.top:3000/lyric?id=' + id,
+            url: 'https://www.arthurdon.top:3000/lyric?id=' + id,
             success: function (data) {
 
                 //移出其他歌词
@@ -232,7 +232,7 @@ $(function () {
         //获取歌单
         $.ajax({
             type: 'GET',
-            url: 'http://www.arthurdon.top:3000/top/list?idx=1',
+            url: 'https://www.arthurdon.top:3000/top/list?idx=1',
             success: function (data) {
                 console.log('data ==> ', data);
 
